@@ -22,6 +22,31 @@ export default function Home() {
               <h2>Barding</h2>
             </a>
           </Link>
+          <Link href="cultures/dwarves">
+            <a className={styles.card}>
+              <h2>Dwarves</h2>
+            </a>
+          </Link>
+          <Link href="cultures/elves">
+            <a className={styles.card}>
+              <h2>Elves</h2>
+            </a>
+          </Link>
+          <Link href="cultures/hobbits">
+            <a className={styles.card}>
+              <h2>Hobbits</h2>
+            </a>
+          </Link>
+          <Link href="cultures/men_of_bree">
+            <a className={styles.card}>
+              <h2>Men of Bree</h2>
+            </a>
+          </Link>
+          <Link href="cultures/rangers">
+            <a className={styles.card}>
+              <h2>Rangers</h2>
+            </a>
+          </Link>
         </div>
       </main>
 

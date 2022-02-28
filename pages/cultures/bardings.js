@@ -5,8 +5,9 @@ export default function Barding() {
     return (
         <main className={styles.main}>
             <h1 className={styles.title}>
-                {random(gender[Math.floor(Math.random() * 2)])} ({features.sort(() => 0.5 - Math.random()).slice(0, 2).join(", ")})
+                {random(gender[Math.floor(Math.random() * 2)])}
             </h1>
+            <h2>({features.sort(() => 0.5 - Math.random()).slice(0, 2).join(", ")})</h2>
             <Link href="/">
                 <a><h2>Back</h2></a>
             </Link>
